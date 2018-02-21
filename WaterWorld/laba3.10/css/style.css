@@ -1,0 +1,29 @@
+.wrap{
+    width: 960px;
+    height: 873px;
+    background-color: lightskyblue;
+}
+.clouds{
+    width: 30%;
+    position: absolute;
+    left: 19%;
+}
+.ship{
+    width: 10%;
+    position: absolute;
+    z-index: 2;
+    top: 620px;
+    left: 50px;
+}
+.water{
+    width:50%;
+    position: absolute;
+    z-index: 3;
+    top: 800px;
+}
+.world{
+    width:50%;
+    position: absolute;
+    z-index: 1;
+    top: 300px;
+}
